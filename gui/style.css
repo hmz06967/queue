@@ -1,0 +1,185 @@
+/**
+ * @author Ozk
+ * @email hamza@hamzaozkan.com.tr
+ * @create date 2022-11-11 06:27:16
+ * @modify date 2022-11-11 06:27:17
+ * @desc [description]
+ */
+body{
+    margin: 0%;
+    padding: 0;
+    background: #dfe4e4;
+}
+.top  {
+    /* border: 1px solid #fff; */
+    border-radius: 100%;
+    width: 400;
+    height: 400;
+    /* display: inline-block; */
+    position: absolute;
+    background: #4caf50;
+    left: 0;
+    box-shadow: 1px -1px 25px #c9c9c9;
+}
+.bottom {
+    border: 1px solid #5e5e5e;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    /* display: inline-block; */
+    margin-left: 50px !important;
+    margin-top: 50px !important;
+    position: absolute;
+    text-align: center;
+    /* margin: auto; */
+    background: #fff;
+    left: 0;
+}
+.circular {
+    /* width: 100%; */
+    height: 450px;
+    position: relative;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* margin-top: 250px; */
+    /* display: initial; */
+    margin-left: 50px;
+}
+
+i.borspan {
+    width: 400px;
+    height: 1px;
+    display: block;
+    background: black;
+    top: 200px;
+    position: absolute;
+}
+.menu{
+    /* border-right: 1px solid rgb(122, 122, 122); */
+    padding: 25px;
+    /* position: fixed; */
+    width: 100%;
+    max-width: 450px;
+    /* height: 100%; */
+    /* background: rgb(243, 243, 243); */
+    /* display: inline; */
+    text-align: left;
+    font-family: cursive;
+}
+.form_input {
+    width: 100px;
+}
+#box label {
+    width: 120px;
+    display: inline-block;
+}
+#box{
+    display: block;
+    padding: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.status .info b{
+    color:#000
+}
+.status .info {
+    color:rgb(24, 24, 24);
+    width: 65px;
+    display: inline-block;
+}
+.main_body .msg{
+    position: absolute;
+    color: #000;
+    /* width: 100%; */
+    /* display: inline-block; */
+    padding: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    left: 0;
+    top: 160px;
+    z-index: 1;
+}
+
+.main {
+    background: rgb(243, 243, 243);
+    width: 100%;
+    /* height: 100%; */
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    border-right: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    box-shadow: 0px 0px 6px 3px #ddd;
+    margin: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border-radius: 12px;
+}
+
+.main_body {
+    display: inline-flex;
+}
+
+.main_body {
+    display: block;
+    position: relative;
+}
+
+.msg {
+    width: 100%;
+}
+
+.msgbox {
+    display: inline-block;
+    width: 76px;
+    font-family: cursive;
+}
+
+.msgbox span.name {
+    color: #4a4a4a;
+}
+
+.msgbox span.value {
+    /* border: 1px solid #6e6c6c; */
+    padding: 10px;
+    border-radius: 5px;
+    background: #dfe4e4;
+}
+
+.circular .top .number {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 23px;
+    position: absolute;
+    width: 71px;
+    display: block;
+    transform: rotate(249deg);
+    font-weight: 700;
+    font-family: cursive;
+    line-height: 112px;
+}
+
+.circular .top .number.name {
+    line-height: revert;
+    height: unset;
+    color: #0000007a;
+}
+
+.top i.borspan.head span.okbar {
+    background: #262626;
+    padding: 15px;
+    display: block;
+    width: 23px;
+    border-radius: 5px;
+}
+
+.top i.borspan.head .name {
+    color: #fff;
+}
+
+.circular .top .number.value {
+    text-shadow: 0px 1px 25px #424242;
+}
