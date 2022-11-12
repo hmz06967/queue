@@ -1,5 +1,5 @@
 # queue
-Make for queue functions, software in c code very very easy
+Make for queue functions, software in javascript code 
 
 # test
 ![Uygulama Ekran Görüntüsü](/images/test.PNG)
